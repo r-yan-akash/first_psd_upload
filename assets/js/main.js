@@ -142,21 +142,53 @@ $(document).ready(function () {
 
 // for_mobile_menu
 var mobile_nav = document.querySelector('.mobile_menu_wrapper')
+var mobile_menu_wrp = document.querySelector('.mobile_menu')
 var bugar = document.querySelector('.bugar')
 
 
 bugar.addEventListener('click',function(){
+    toggleMobNav()
+});
+
+function toggleMobNav(){
     mobile_nav.classList.toggle('active');
+    mobile_menu_wrp.classList.toggle('active');
     // icon_btn.classList.toggle('fa-times');
     var icon_btn = document.querySelector('#icon_btn i')
     var ico = document.querySelector('.fa-bars')
 
     if(icon_btn.contains(ico)){
-    icon_btn.classList.add('fa-times')
-    icon_btn.classList.remove('fa-bars')
+        icon_btn.classList.add('fa-times')
+        icon_btn.classList.remove('fa-bars')
     }else{
-    icon_btn.classList.remove('fa-times')
-    icon_btn.classList.add('fa-bars')
-
+        icon_btn.classList.remove('fa-times')
+        icon_btn.classList.add('fa-bars')
     }
-});
+}
+
+var sub_menu_btn = document.getElementsByClassName('sub_menu_wrap')
+var mobileWrp = document.querySelector('.mobile_menu')
+
+document.addEventListener('click', function(e){
+    if(e.target.classList.contains('mobile_menu')){
+        toggleMobNav()
+    }
+})
+
+
+for(var i=0; i<sub_menu_btn.length; i++){
+    sub_menu_btn[i].addEventListener('click',function(){
+        if(this.classList.contains('active')){
+            this.classList.remove('active')
+        }else{
+            closeAll()
+            this.classList.add('active')
+        }
+    })
+}
+
+function closeAll(){
+    for(var i=0; i<sub_menu_btn.length; i++){
+        sub_menu_btn[i].classList.remove('active')
+    }
+}

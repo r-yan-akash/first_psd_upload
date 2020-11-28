@@ -150,6 +150,13 @@ span {
   height: 500px;
 }
 
+.bugur_wrap {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  z-index: 999;
+}
+
 .bugur_wrap span {
   display: none;
 }
@@ -1048,7 +1055,7 @@ ul.mobile_items li a {
   display: block;
   padding: 8px 0 10px 20px;
 }
-ul.mobile_items li:after {
+ul.mobile_items>li.sub_menu_wrap:after {
   content: "\f078";
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
@@ -1058,4 +1065,30 @@ ul.mobile_items li:after {
   color: #fff;
   font-size: 17px;
   cursor: pointer;
+}
+ul.mobile_items>li.sub_menu_wrap.active:after {
+  content: "\f077";
+}
+
+/* sub_menu */
+.sub_menu{
+  display: none;
+}
+.sub_menu_wrap.active .sub_menu {
+  display: block;
+}
+
+section.mobile_menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  display: none;
+  background: #00000030;
+}
+
+section.mobile_menu.active {
+  display: block
 }
