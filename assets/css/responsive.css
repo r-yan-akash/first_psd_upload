@@ -1,0 +1,463 @@
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px) {
+    .banner_right img {
+        width: 100%;
+    }
+    .interface_image img {
+        display: block;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .sign_in_btn a{
+        display: none;
+    }
+    .banner_right img{
+        width: 100%;
+    }
+    section.banner_section {
+        background-position: bottom left;
+    }
+    ul.nav_item {
+        text-align: right;
+    }
+    .banner_left {
+        padding-top: 0;
+        margin-bottom: 30px;
+    }
+    .interface_image img {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .single_success {
+        width: 29.33%;
+        margin-bottom: 30px;
+    }
+    .success_card_wrapper {
+        flex-wrap: wrap;
+    }
+    .success_bottom h2 {
+        font-size: 35px;
+        max-width: 50%;
+        line-height: 1.3;
+    }
+    .single_member {
+        margin-bottom: 30px;
+    }
+    .single_price {
+        margin-bottom: 30px;
+    }
+    .faq_heading {
+        margin-bottom: 30px;
+    }
+    .single_logo img {
+        max-width: 75px;
+        margin: 0 auto;
+    }
+    .news_sidebar {
+        display: flex;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-top: 30px;
+    }
+    .single_side {
+        margin-bottom: 0px;
+        width: 50%;
+        margin: 0 15px;
+    }
+    .footer_heading h2 {
+        max-width: 60% !important;
+    }
+    .footer_card_differ {
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .mobile_menu_wrapper {
+        display: block;
+    }
+    .main_logo img {
+        min-width: 204px;
+    }
+    .bugur_wrap span {
+        display: block;
+        font-size: 32px;
+        color: #24E09B;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+     .container {
+         max-width: 992px;
+     }
+    h1 {
+        font-size: 60px;
+    }
+    .custom_heading {
+        width: 100%;
+    }
+    .sign_in_btn a {
+        display: none;
+    }
+
+    .banner_right img {
+        width: 100%;
+    }
+
+    section.banner_section {
+        background-position: bottom left;
+    }
+
+    ul.nav_item {
+        display: none;
+    }
+
+    .banner_left {
+        padding-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .interface_image img {
+        margin-left: 0;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .single_success {
+        width: 28.33%;
+        margin-bottom: 30px;
+    }
+    .video_content {
+        width: 85%;
+    }
+    .video_content h2 {
+        line-height: 1.2;
+    }
+    .success_card_wrapper {
+        flex-wrap: wrap;
+    }
+
+    .success_bottom h2 {
+        font-size: 35px;
+        max-width: 64%;
+        line-height: 1.3;
+    }
+
+    .single_member {
+        margin-bottom: 30px;
+    }
+
+    .single_price {
+        margin-bottom: 30px;
+    }
+
+    .faq_heading {
+        margin-bottom: 30px;
+    }
+
+    .single_logo img {
+        max-width: 75px;
+        margin: 0 auto;
+    }
+
+    .news_sidebar {
+        display: flex;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-top: 30px;
+    }
+
+    .single_side {
+        margin-bottom: 0px;
+        width: 50%;
+        margin: 0 15px;
+    }
+
+    .footer_heading h2 {
+        max-width: 61% !important;
+    }
+
+    .footer_card_differ {
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .bugur_wrap span {
+        display: block;
+        font-size: 32px;
+        color: #24E09B;
+        cursor: pointer;
+        margin-left: 40px;
+    }
+    .container{
+        max-width: 767px;
+    }
+   h1 {
+       font-size: 60px;
+   }
+
+   .custom_heading {
+       width: 100%;
+   }
+
+   .sign_in_btn a {
+       display: none;
+   }
+
+   .banner_right img {
+       width: 100%;
+   }
+
+   section.banner_section {
+       background-position: bottom left;
+   }
+
+   ul.nav_item {
+       display: none;
+   }
+
+   .banner_left {
+       padding-top: 0;
+       margin-bottom: 30px;
+   }
+
+   .interface_image img {
+       margin-left: 0;
+       margin-bottom: 30px;
+       width: 100%;
+   }
+
+   .single_success {
+       width: 28.33%;
+       margin-bottom: 30px;
+   }
+
+   .video_content {
+       width: 85%;
+   }
+
+   .video_content h2 {
+       line-height: 1.2;
+   }
+
+   .success_card_wrapper {
+       flex-wrap: wrap;
+   }
+
+   .success_bottom h2 {
+       font-size: 35px;
+       max-width: 64%;
+       line-height: 1.3;
+   }
+
+   .single_member {
+       margin-bottom: 30px;
+   }
+
+   .single_price {
+       margin-bottom: 30px;
+   }
+
+   .faq_heading {
+       margin-bottom: 30px;
+   }
+
+   .single_logo img {
+       max-width: 75px;
+       margin: 0 auto;
+   }
+
+   .news_sidebar {
+       display: flex;
+       margin-left: -15px;
+       margin-right: -15px;
+       margin-top: 30px;
+   }
+
+   .single_side {
+       margin-bottom: 0px;
+       width: 50%;
+       margin: 0 15px;
+   }
+
+   .footer_heading h2 {
+       max-width: 61% !important;
+   }
+
+   .footer_card_differ {
+       padding-left: 0;
+       margin-bottom: 30px;
+   }
+   .features_card {
+       margin-bottom: 30px;
+   }
+   section.testimonials_section {
+       overflow-x: hidden;
+   }
+   .news_img img {
+       max-width: 100%;
+   }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 400px) and (max-width: 576.98px) {
+    h1 {
+        font-size: 58px;
+    }
+   .single_success {
+       width: 100%;
+   }
+   .success_bottom {
+       display: block;
+   }
+   .success_bottom h2 {
+       max-width: 100%;
+       margin-bottom: 20px;
+   }
+   .video_content h2 {
+       margin-bottom: 30px;
+       font-size: 35px;
+   }
+   .video_content {
+       width: 92%;
+   }
+   .copyright_wrapper {
+       display: block;
+   }
+   .copyright_wrapper p {
+       margin-bottom: 5px;
+       font-size: 13px;
+   }
+   .footer_heading h2 {
+       max-width: 100% !important;
+   }
+   .faq_heading h2 {
+       font-size: 48px;
+   }
+   .faq_heading p {
+       width: 100%;
+   }
+   .btn-link:before {
+       right: 0px;
+   }
+   .btn-link.collapsed:after {
+       right: 0px;
+   }
+   .company_heading p {
+       font-size: 17px;
+   }
+   .news_sidebar {
+       display: block;
+       margin-top: 30px;
+   }
+   .single_side {
+       margin: 0;
+       margin-bottom: 30px;
+       width: 100%;
+   }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+     h1 {
+         font-size: 45px;
+     }
+     h2 {
+         font-size: 35px;
+     }
+     .single_success {
+         width: 100%;
+     }
+
+     .success_bottom {
+         display: block;
+     }
+     .features_card p {
+         width: 92%;
+     }
+     .success_bottom h2 {
+         max-width: 100%;
+         margin-bottom: 20px;
+     }
+
+     .video_content h2 {
+         margin-bottom: 30px;
+         font-size: 35px;
+     }
+
+     .video_content {
+         width: 100%;
+     }
+     .video_wrapper {
+         padding: 90px 0;
+
+     }
+     .copyright_wrapper {
+         display: block;
+     }
+
+     .copyright_wrapper p {
+         margin-bottom: 5px;
+         font-size: 10px;
+     }
+
+     .footer_heading h2 {
+         max-width: 100% !important;
+     }
+
+     .faq_heading h2 {
+         font-size: 35px;
+     }
+
+     .faq_heading p {
+         width: 100%;
+     }
+
+     .btn-link:before {
+         right: 0px;
+     }
+
+     .btn-link.collapsed:after {
+         right: 0px;
+     }
+
+     .company_heading p {
+         font-size: 17px;
+     }
+
+     .news_sidebar {
+         display: block;
+         margin-top: 30px;
+     }
+
+     .single_side {
+         margin: 0;
+         margin-bottom: 30px;
+         width: 100%;
+     }
+   .card_img img {
+       height: 50px;
+        max-width: 60px;
+
+   }
+   .card_img {
+       padding: 5px 5px 6px;
+   }
+   .testi_single {
+       padding: 0 20px;
+   }
+   section.footer_section {
+       padding: 44px 0 60px;
+   }
+}
