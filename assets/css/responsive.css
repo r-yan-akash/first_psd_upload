@@ -193,6 +193,9 @@
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .mobile_menu_wrapper {
+        display: block;
+    }
     .bugur_wrap span {
         display: block;
         font-size: 32px;
